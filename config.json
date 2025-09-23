@@ -1,0 +1,31 @@
+{
+    "assistant_model": {
+        "path": "../deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+        "max_memory": {
+            "0": "23GiB", 
+            "1": "23GiB"
+        }
+    },
+    "local_victim_llm": {
+        "path": "../deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+        "max_memory": {
+            "4": "23GiB", 
+            "5": "23GiB",
+            "6": "23GiB", 
+            "7": "23GiB"
+        }
+    },
+    "victim_llm": {
+        "api_key": "",
+        "base_url": "",
+        "model": "o4-mini"
+    },
+    "estimator_model": {
+        "api_key": "",
+        "base_url": "",
+        "model": "gpt-4o"
+    },
+    "data_path": "data/legal_qa.json",
+    "output_path": "results/attack_results.json",
+    "knowledge_graph_path": "knowledge/semantic_to_psych_analysis.json"
+} 
